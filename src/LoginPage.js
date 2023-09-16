@@ -3,7 +3,9 @@ import './style.css';
 
 function LoginPage() {
   return (
+
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
+      <marquee>LOGIN/REGISTER</marquee>
       <div className="bg-white p-4 rounded-lg shadow-md text-center">
         <h2 className="text-2xl font-semibold">Login</h2>
 
