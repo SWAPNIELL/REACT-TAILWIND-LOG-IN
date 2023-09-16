@@ -11,14 +11,14 @@ function LoginPage() {
       <div className="mt-4">
         <input
           type="email"
-          placeholder="Email"
+          placeholder="Enter Your Email"
           className="w-full px-4 py-2 border rounded-md focus:outline-none"
         />
       </div>
       <div className="mt-4">
         <input
           type="password"
-          placeholder="Password"
+          placeholder="Enter Password"
           className="w-full px-4 py-2 border rounded-md focus:outline-none"
         />
       </div>
@@ -35,6 +35,12 @@ function LoginPage() {
       >
         Login with Google
       </button>
+      <button
+      id="sign-up-button"
+      className="bg-green-500 text-white px-4 py-2 rounded-lg mt-4 w-full"
+    >
+      Sign Up
+    </button>
     </div>
   </div>
   );
