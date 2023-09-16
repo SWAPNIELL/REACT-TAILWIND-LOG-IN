@@ -1,6 +1,6 @@
 import React from 'react';
 import './style.css';
-
+import "./styles/tailwind-pre-build.css";
 function LoginPage() {
   return (
     <div className="bg-gray-100 min-h-screen flex items-center justify-center">
